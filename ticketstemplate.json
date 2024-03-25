@@ -1,0 +1,19 @@
+{
+    "codes": [
+        {
+            "id": "123",
+            "allowed_scans": 30,
+            "times_scanned": 1
+        },
+        {
+            "id": "456",
+            "allowed_scans": 5,
+            "times_scanned": 0
+        },
+        {
+            "id": "789",
+            "allowed_scans": 5,
+            "times_scanned": 0
+        }
+    ]
+}

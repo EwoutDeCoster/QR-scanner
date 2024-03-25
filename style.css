@@ -1,0 +1,146 @@
+@media screen and (max-width: 640px) {
+  body {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  #article {
+    font-size: 18px;
+  }
+  #loadingMessage {
+    padding: 20px;
+  }
+  #output {
+    padding: 5px;
+  }
+  #scanAgain {
+    font-size: 18px;
+  }
+  button#uploadButton {
+    font-size: 18px;
+  }
+  canvas {
+    max-height: 40%;
+  }
+  
+}
+
+
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #333;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+canvas {
+  width: 100%;
+  height: auto;
+}
+
+
+
+  h1 {
+    margin: 10px 0;
+    font-size: 40px;
+    color: #ed5a2b;
+  }
+
+  #article {
+    font-size: 20px;
+  }
+
+  #loadingMessage {
+    text-align: center;
+    padding: 40px;
+    background-color: #eee;
+  }
+  #loadingMessage:hover {
+    cursor: pointer;
+  }
+
+  #canvas {
+    width: 100%;
+  }
+
+  #output {
+    margin-top: 20px;
+    background: #eee;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  #output div {
+    padding-bottom: 10px;
+    word-wrap: break-word;
+  }
+
+  #noQRFound {
+    text-align: center;
+  }
+
+#scanAgain {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ed5a2b;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#scanAgain:hover {
+  background-color: #e4592b;
+  box-shadow: 0 0 5px #acacac;
+  transition: 0.3s;
+}
+
+#scanAgain:focus {
+  outline: none;
+}
+
+/* Existing styles from the QR scanner demo... */
+
+/* Styles for the form page */
+input[type="file"] {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="file"]:hover {
+  background-color: #e8e8e8;
+  transition: 0.3s;
+}
+
+button#uploadButton {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #ed5a2b;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#uploadButton:hover {
+  background-color: #e4592b;
+  box-shadow: 0 0 5px #acacac;
+  transition: 0.3s;
+}
+
+button#uploadButton:focus {
+  outline: none;
+}
+

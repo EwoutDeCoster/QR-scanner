@@ -1,0 +1,17 @@
+{
+    "short_name": "EVA Scanner",
+    "name": "EVA Scanner",
+    "icons": [
+      {
+        "src": "image.png",
+        "type": "image/png",
+        "sizes": "600x600"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ff4d07"
+  }
+  

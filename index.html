@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#ff4d07">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="image.png">
+<link  rel="favicon" href="image.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scanner Demo</title>
+  <script src="jsQR.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img id="eva" src="https://elektrovanassche.be/image/cache/catalog/Logos/001_Logo_EvaV1-2796x1064.jpg" width="150px" alt="">
+  <div id="loadingMessage" title="Click to enable camera">🎥 geen toegang tot camera (Sta camera toegang toe)</div>
+  <canvas id="canvas" hidden></canvas>
+  <div id="output" hidden style="margin-top: 0">
+    <div id="outputMessage">Geen QR code gevonden.</div>
+    <div hidden><b id="article">Data:</b><br> <span id="outputData"></span></div>
+    <button style="margin-bottom: 10px;" id="scanAgain" hidden>Opnieuw scannen</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

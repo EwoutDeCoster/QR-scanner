@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Upload tickets</title>
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="/"><img src="https://elektrovanassche.be/image/cache/catalog/Logos/001_Logo_EvaV1-2796x1064.jpg" width="200px" alt=""></a>
+  <h1>Upload Tickets</h1>
+  <p>Selecteer een XLSX-bestand (Excel) om te uploaden en te verwerken met de volgende kollomen: </p>
+  <p>Eenmaal geüpload worden de tickets die in de excel staan verwerkt en opgeslagen in de Scan applicatie.</p>
+  </p>
+  <p style="font-weight: bold;">Ticketcode - Aantal tickets - Reeds gescanned (optioneel)</p>
+  <form action="/uploadbestand" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileInput" accept=".xlsx" required>
+    <button type="submit" id="uploadButton">Upload Bestand</button>
+  </form>
+</body>
+</html>
